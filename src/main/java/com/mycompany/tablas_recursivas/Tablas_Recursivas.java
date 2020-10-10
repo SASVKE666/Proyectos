@@ -100,7 +100,7 @@ public class Tablas_Recursivas extends javax.swing.JFrame {
         try{
         int y=Integer.parseInt(jTextField1.getText());
         
-        if(y ==0){
+        if(y <0){
             JOptionPane.showMessageDialog(this,"ERROR");
             return;
         }else{
